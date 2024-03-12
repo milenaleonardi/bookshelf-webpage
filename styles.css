@@ -1,0 +1,87 @@
+* {
+  font-family: "Fira Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 1px solid #030308;
+  font-size: 1.125rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature,
+.catalog,
+.cta {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.cta-button {
+  color: #fff;
+  background-color: #030308;
+  border-radius: 9999px;
+  display: block;
+  /* auto: Maior margem possível, indicado para centralizar */
+  margin: 2rem auto;
+  padding: 1em 1.5em;
+  width: fit-content;
+  text-decoration: none;
+  text-transform: u;
+}
+
+.genres > li {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+/* Aplicando margem em cada li  */
+.genres > li + li {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+/* Aplicar no link de cada li */
+.genre > a,
+.see-more > a {
+  background-color: #43abf6;
+  border-radius: 9999px;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.see-more > a {
+  background-color: #030308;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #030308;
+  font-family: "Lora", serif;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
